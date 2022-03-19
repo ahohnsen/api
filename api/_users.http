@@ -8,6 +8,24 @@ POST {{baseUrl}}/users
 Content-Type: application/json
 
 {
-  "username": "Jelena",
-  "email": "jelena@mail.de"
+  "username": "Huhu",
+  "email": "uhhuhu@mail.de"
+}
+
+###
+PUT {{baseUrl}}/users
+Content-Type: application/json
+
+{ "_id": "623508743324cc36cce9b52f",
+  "user": {
+    "username": "Eli",
+  "email": "eli@web.de"
+  }
+}
+
+###
+DELETE {{baseUrl}}/users
+Content-Type: application/json
+
+{ "_id": "6235086f82dbf0631c580eee"
 }
